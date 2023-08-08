@@ -5,11 +5,11 @@
 }
 
 .slide1{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/images/pexels-lukas-574071.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./images/pexels-lukas-574071.jpg);
 }
 
 .slide2{
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/images/pexels-pixabay-261579.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./images/pexels-pixabay-261579.jpg);
   
 
 }
