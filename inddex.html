@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bearcin Sweety</title>
+    <link rel = "icon" href = 
+"./images/download.png" 
+        type = "image/x-icon">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <!--additional-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+     <!--Navbar-->
+     <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-pink ">
+            <!--no padding, so use container-->
+            <div class="container">
+            <!--Name on left side-->
+                <a href="/" class="navbar-brand">Bearcin Sweety</a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--use in build icon in bootstrap-->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--use the id name which you gave for data target-->
+                <div class="collapse navbar-collapse" id="myNavBar">  
+                     <!--ml-auto is to use arrange items to left-->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">  
+                        <!--add active to denote that you are on the particular page-->
+                        <li class="nav-item ">
+                            <a href="inddex.html" class="nav-link active">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="about.html" class="nav-link">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="blog.html " class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shorts.html " class="nav-link">SHORT-STORIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </header>
+        <!--carousel-->
+    <div class="slider-wrapper owl-carousel owl-theme hero-slider">
+        <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h6 class="text-uppercase text-white" >I craft digital experiences</h6>
+                        <h1 class="display-2 my-3 text-white text-uppercase">Let's Explore <br> Together</h1>
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                        <a href="#" class="btn btn-outline-light ms-md-3">My Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--slide2-->
+        <div class="slide slide2 min-vh-100 bg-cover d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h6 class="text-uppercase text-white" >I blog my thoughts</h6>
+                        <h1 class="display-2 my-3 text-white text-uppercase">Let's read it <br> Together</h1>
+                        <a href="#" class="btn btn-brand">Get Started</a>
+                        <a href="#" class="btn btn-outline-light ms-md-3">My Works</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+<!-- script-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <!--owl carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+</body>
+</html>

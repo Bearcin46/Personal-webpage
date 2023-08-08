@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel = "icon" href = 
+    "./images/download.png" 
+            type = "image/x-icon">
+    <!--fonticons-->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <!--stylesheet-->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="contact.css">
+
+  </head>
+</head>
+ <body data-bs-spy="scroll" data-bs-target=".navbar">
+ 
+ <!--Navbar-->
+ <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <!--no padding, so use container-->
+        <div class="container">
+        <!--Name on left side-->
+            <a href="#" class="navbar-brand">Bearcin Sweety</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <!--use in build icon in bootstrap-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--use the id name which you gave for data target-->
+            <div class="collapse navbar-collapse" id="myNavBar">  
+                 <!--ml-auto is to use arrange items to left-->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+                    <!--add active to denote that you are on the particular page-->
+                    <li class="nav-item ">
+                        <a href="inddex.html" class="nav-link" >HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link" >ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link " >BLOG</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="shorts.html" class="nav-link" >SHORT-STORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link active" >CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success  my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+        </div>
+    </nav>
+    </header>
+
+    <section id="contact">
+  
+        <h1 class="section-header">Contact Me</h1>
+        
+        <div class="contact-wrapper">
+        
+        <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+             
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control " rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button  bg-success" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <i class="fa fa-paper-plane"></i><span class="send-text ">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+          
+        <!-- Left contact page --> 
+          
+            <div class="direct-contact-container">
+      
+              <ul class="contact-list">
+                <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Area, Country</span></i></li>
+                
+                <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:(91)-999-999" title="Give me a call">999-999-9999</a></span></i></li>
+                
+                <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">contactme@gmail.com</a></span></i></li>
+                
+              </ul>
+      
+              <hr>
+            
+      
+              <div class="copyright">&copy; ALL RIGHTS RESERVED</div>
+      
+            </div>
+          
+        </div>
+        
+      </section>  
+        
+        
+    <!--about end-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

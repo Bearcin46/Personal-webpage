@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel = "icon" href = 
+"./images/download.png" 
+        type = "image/x-icon">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+
+</head>
+</head>
+ <body>
+ 
+ <!--Navbar-->
+ <header>
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-info">
+        <!--no padding, so use container-->
+        <div class="container">
+        <!--Name on left side-->
+            <a href="/" class="navbar-brand">Bearcin Sweety</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <!--use in build icon in bootstrap-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--use the id name which you gave for data target-->
+            <div class="collapse navbar-collapse" id="myNavBar">  
+                 <!--ml-auto is to use arrange items to left-->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+                    <!--add active to denote that you are on the particular page-->
+                    <li class="nav-item ">
+                        <a href="inddex.html" class="nav-link" >HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link active" >ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="blog.html" class="nav-link" >BLOG</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="shorts.html" class="nav-link " >SHORT-STORIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" >CONTACT</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success  my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+<!--about-->
+<section class="about section" id="about">
+    <h2 class="section-title" >ABOUT</h2>
+    <div class="about_container bd_grid">
+    <div class="about_img"  >
+      <!--pic here-->
+      <img src="./images/about.jpg" alt="here is a pic">
+    </div>
+    <div>
+      <h2 class="about_subtitle" >Frontend Developer and a Writer</h2>
+
+    <p class="about_text" >Front end development is the area of web development that focuses on the user interface. It is all about converting the backend code into a graphical interface. The front end makes the data easy to read and understand. Every Developer is a writer. In the same way I also love to have fun with writing. But as of my profession Frontend developer title suits me alot. I love to craft websites with my skills including React.js, Javascript,Css, Bootstrap,HTML. In my blogs I love to share my experience both in my education as well as of society</p>
+  
+</div>
+</div>
+  </section>
+
+<!--about end-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
